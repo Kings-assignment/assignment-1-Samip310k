@@ -8,8 +8,7 @@ int main(){
     scanf( "%d", &num);
 
     int result;
-    printf("enter a number:");
-    scanf("%d", &num);
-    result=
+    result=!(num&(num-1));
+    printf("the result is %d\n",result);
     return 0;
 }
